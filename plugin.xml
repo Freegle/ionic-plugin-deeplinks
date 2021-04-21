@@ -57,7 +57,9 @@
 				<data android:scheme="$DEEPLINK_3_SCHEME" android:host="$DEEPLINK_3_HOST" android:pathPrefix="$ANDROID_3_PATH_PREFIX" />
 				<data android:scheme="$DEEPLINK_4_SCHEME" android:host="$DEEPLINK_4_HOST" android:pathPrefix="$ANDROID_4_PATH_PREFIX" />
 				<data android:scheme="$DEEPLINK_5_SCHEME" android:host="$DEEPLINK_5_HOST" android:pathPrefix="$ANDROID_5_PATH_PREFIX" />
-			</intent-filter>
+        <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:path="/" />
+        <data android:scheme="$DEEPLINK_SCHEME" android:host="$DEEPLINK_HOST" android:path="" />
+      </intent-filter>
 		</config-file>
 
 		<source-file src="src/android/io/ionic/links/IonicDeeplink.java" target-dir="src/io/ionic/deeplink" />
