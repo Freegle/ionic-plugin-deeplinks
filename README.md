@@ -1,5 +1,3 @@
-SHOULD NO LONGER BE NEEDED AS MANY REPO HAS BEEN UPDATED
-
 # Community Maintained
 
 This plugin is being maintained by the Ionic community. Interested in helping? Message `max` on ionic worldwide slack.
